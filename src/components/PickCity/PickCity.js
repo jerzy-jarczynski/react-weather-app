@@ -11,6 +11,7 @@ const PickCity = props => {
     e.preventDefault();
     props.action(city);
     setCity('');
+    console.log(props.test);
   };
 
   return (
